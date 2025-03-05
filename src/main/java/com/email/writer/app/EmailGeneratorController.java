@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/email")
 @AllArgsConstructor
 @CrossOrigin(origins = "*")
-//@CrossOrigin(origins = "chrome-extension://eiifcbpiklnbhdlkclgnafkcmcfjhkbp")
 public class EmailGeneratorController {
 
     private final EmailGeneratorService emailGeneratorService;
